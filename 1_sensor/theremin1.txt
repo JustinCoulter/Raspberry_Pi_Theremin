@@ -1,0 +1,16 @@
+use_synth :prophet
+
+
+
+
+live_loop :listen do
+  use_real_time
+  
+  note = sync "/osc*/play_this_p"
+  
+  
+  play note
+  
+  
+  
+end
